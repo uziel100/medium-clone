@@ -1,0 +1,49 @@
+@media (min-width: 1080px) {
+    .wrapper {
+        padding: 0 0.1rem;
+    }
+
+    .main-principal{
+        flex-flow: row nowrap;
+    }
+
+    .header .header-logo__gretting {
+        display: inline-block;
+    }
+
+    .main-principal .main-principal__left {
+        flex-basis: calc( 100% / 3);                
+    }
+
+    .main-principal .main-principal__center {                    
+        flex-basis: calc( 100% / 3);        
+        padding: 0 3rem;
+    }
+
+    .main-principal .main-principal__rigth {
+        flex-basis: calc( 100% / 3);                
+    }
+
+    .main-principal .main-principal__rigth{        
+        flex-flow: column nowrap;
+        justify-content: baseline;                
+    }
+
+    .main-principal__rigth .social-media{                 
+        padding: 0 1.6rem;
+    }
+
+    .main-principal__rigth .topics{        
+        padding: 3.2rem 2.4rem 0;  
+    }
+
+    .main-trending .main-trending__item{
+        flex-basis: calc(100% / 3) ;        
+    }
+
+    .main-more-articles{
+        flex-flow: row nowrap;
+        gap: 8rem;        
+    }
+}
+
